@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		0F9BF8002B7DF1BC00BD6F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF7FF2B7DF1BC00BD6F07 /* AppDelegate.swift */; };
 		0F9BF8022B7DF1BC00BD6F07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8012B7DF1BC00BD6F07 /* SceneDelegate.swift */; };
-		0F9BF8042B7DF1BC00BD6F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8032B7DF1BC00BD6F07 /* ViewController.swift */; };
 		0F9BF8092B7DF1BE00BD6F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9BF8082B7DF1BE00BD6F07 /* Assets.xcassets */; };
 		0F9BF80C2B7DF1BE00BD6F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9BF80A2B7DF1BE00BD6F07 /* LaunchScreen.storyboard */; };
+		0F9BF8142B7E066700BD6F07 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8132B7E066700BD6F07 /* SearchViewController.swift */; };
+		0F9BF8162B7E069B00BD6F07 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8152B7E069B00BD6F07 /* FavoritesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F9BF7FC2B7DF1BC00BD6F07 /* GithubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9BF7FF2B7DF1BC00BD6F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F9BF8012B7DF1BC00BD6F07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F9BF8032B7DF1BC00BD6F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F9BF8082B7DF1BE00BD6F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F9BF80B2B7DF1BE00BD6F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F9BF80D2B7DF1BE00BD6F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F9BF8132B7E066700BD6F07 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0F9BF8152B7E069B00BD6F07 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		0F9BF7FE2B7DF1BC00BD6F07 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				0F9BF8172B7E075F00BD6F07 /* ViewControllers */,
 				0F9BF7FF2B7DF1BC00BD6F07 /* AppDelegate.swift */,
 				0F9BF8012B7DF1BC00BD6F07 /* SceneDelegate.swift */,
-				0F9BF8032B7DF1BC00BD6F07 /* ViewController.swift */,
 				0F9BF8082B7DF1BE00BD6F07 /* Assets.xcassets */,
 				0F9BF80A2B7DF1BE00BD6F07 /* LaunchScreen.storyboard */,
 				0F9BF80D2B7DF1BE00BD6F07 /* Info.plist */,
 			);
 			path = GithubFollowers;
+			sourceTree = "<group>";
+		};
+		0F9BF8172B7E075F00BD6F07 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F9BF8152B7E069B00BD6F07 /* FavoritesListViewController.swift */,
+				0F9BF8132B7E066700BD6F07 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9BF8042B7DF1BC00BD6F07 /* ViewController.swift in Sources */,
 				0F9BF8002B7DF1BC00BD6F07 /* AppDelegate.swift in Sources */,
+				0F9BF8142B7E066700BD6F07 /* SearchViewController.swift in Sources */,
+				0F9BF8162B7E069B00BD6F07 /* FavoritesListViewController.swift in Sources */,
 				0F9BF8022B7DF1BC00BD6F07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
