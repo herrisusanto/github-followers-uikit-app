@@ -38,7 +38,7 @@ class SearchViewController: UIViewController {
     
     @objc func pushFollowerListViewController() {
         guard isUsernameEntered else {
-            print("Username is empty!")
+            presentGFAlertOnMainThread(title: "Empty Username!", message: "Please enter a username. We need to know who to look for..", buttonTitle: "Ok")
             return
         }
         let followerListViewController = FollowerListViewController()
@@ -93,3 +93,15 @@ extension SearchViewController: UITextFieldDelegate {
         return true
     }
 }
+
+
+#if DEBUG
+import SwiftUI
+
+@available(iOS 13, *)
+struct SearchViewController_Preview: PreviewProvider {
+    static var previews: some View {
+        SearchViewController().showPreview()
+    }
+}
+#endif
