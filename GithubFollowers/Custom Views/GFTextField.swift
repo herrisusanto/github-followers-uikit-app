@@ -40,4 +40,8 @@ class GFTextField: UITextField {
     
 }
 
+#Preview("GFTextField"){
+    GFTextField()
+}
+
 

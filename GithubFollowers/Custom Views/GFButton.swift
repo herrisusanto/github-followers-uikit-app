@@ -34,14 +34,6 @@ class GFButton: UIButton {
     
 }
 
-#if DEBUG
-import SwiftUI
-
-@available(iOS 13, *)
-struct GFButton_Preview: PreviewProvider {
-    static var previews: some View {
-        // view controller using programmatic UI
-        GFButton(backgroundColor: .systemPink, title: "Sign In").showPreview()
-    }
+#Preview("GFButton"){
+    GFButton(backgroundColor: .systemPink, title: "Sign In ")
 }
-#endif

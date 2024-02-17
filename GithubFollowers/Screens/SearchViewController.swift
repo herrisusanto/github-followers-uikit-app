@@ -95,13 +95,6 @@ extension SearchViewController: UITextFieldDelegate {
 }
 
 
-#if DEBUG
-import SwiftUI
-
-@available(iOS 13, *)
-struct SearchViewController_Preview: PreviewProvider {
-    static var previews: some View {
-        SearchViewController().showPreview()
-    }
+#Preview("Favorites List View Controller") {
+    SearchViewController()
 }
-#endif

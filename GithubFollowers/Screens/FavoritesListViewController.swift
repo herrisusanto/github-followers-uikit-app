@@ -15,3 +15,8 @@ class FavoritesListViewController: UIViewController {
     }
 
 }
+
+#Preview("Favorites List View Controller") {
+    FavoritesListViewController()
+}
+ 

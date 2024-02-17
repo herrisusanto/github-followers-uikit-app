@@ -36,4 +36,8 @@ class GFTitleLabel: UILabel {
     
 }
 
+#Preview("GFTitleLabel"){
+    GFTitleLabel(textAlignment: .center, fontSize: 14)
+}
+
 
