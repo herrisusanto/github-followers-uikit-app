@@ -29,6 +29,7 @@
 		0F9BF83B2B823AEB00BD6F07 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF83A2B823AEB00BD6F07 /* GFAvatarImageView.swift */; };
 		0F9BF83D2B83293500BD6F07 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF83C2B83293500BD6F07 /* UIHelper.swift */; };
 		0F9BF8452B83539900BD6F07 /* GFEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8442B83539800BD6F07 /* GFEmptyView.swift */; };
+		0F9BF8472B83B17700BD6F07 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8462B83B17700BD6F07 /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		0F9BF83A2B823AEB00BD6F07 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		0F9BF83C2B83293500BD6F07 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		0F9BF8442B83539800BD6F07 /* GFEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyView.swift; sourceTree = "<group>"; };
+		0F9BF8462B83B17700BD6F07 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				0F9BF8152B7E069B00BD6F07 /* FavoritesListViewController.swift */,
 				0F9BF81D2B7E4B4D00BD6F07 /* FollowerListViewController.swift */,
 				0F9BF8132B7E066700BD6F07 /* SearchViewController.swift */,
+				0F9BF8462B83B17700BD6F07 /* UserInfoViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9BF8242B7FA07900BD6F07 /* GFAlertViewController.swift in Sources */,
+				0F9BF8472B83B17700BD6F07 /* UserInfoViewController.swift in Sources */,
 				0F9BF81C2B7E14F800BD6F07 /* GFTextField.swift in Sources */,
 				0F9BF8002B7DF1BC00BD6F07 /* AppDelegate.swift in Sources */,
 				0F9BF8272B7FA69400BD6F07 /* UIViewController+Ext.swift in Sources */,
