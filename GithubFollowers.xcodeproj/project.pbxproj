@@ -107,8 +107,8 @@
 				0F9BF8372B823A1B00BD6F07 /* Cells */,
 				0F9BF8412B83532700BD6F07 /* ImageViews */,
 				0F9BF8432B83534E00BD6F07 /* Labels */,
-				0F9BF8422B83533100BD6F07 /* ViewControllers */,
 				0F9BF8402B83531D00BD6F07 /* TextFields */,
+				0F9BF8422B83533100BD6F07 /* ViewControllers */,
 				0F9BF83E2B8352F400BD6F07 /* Views */,
 			);
 			path = "Custom Views";
@@ -127,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				0F9BF8152B7E069B00BD6F07 /* FavoritesListViewController.swift */,
-				0F9BF8132B7E066700BD6F07 /* SearchViewController.swift */,
 				0F9BF81D2B7E4B4D00BD6F07 /* FollowerListViewController.swift */,
+				0F9BF8132B7E066700BD6F07 /* SearchViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
