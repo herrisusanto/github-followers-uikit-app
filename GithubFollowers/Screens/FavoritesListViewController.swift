@@ -50,7 +50,6 @@ class FavoritesListViewController: UIViewController {
                     self.showEmptyStateView(with: "No Favorites?\nAdd one on the follower screen.", in: self.view)
                 } else {
                     self.favorites = favorites
-                    print(self.favorites)
                     DispatchQueue.main.async {
                         self.tableView.reloadData()
                         self.view.bringSubviewToFront(self.tableView)

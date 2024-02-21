@@ -48,12 +48,15 @@ extension UIViewController {
     
     func dismissLoadingView() {
         DispatchQueue.main.async {
-            containerView.removeFromSuperview()
-            containerView = nil
+            if containerView != nil {
+                containerView.removeFromSuperview()
+                containerView = nil
+            }
+            
         }
     }
     
-    func showEmptyStateView(with message: String, in view: UIView) { 
+    func showEmptyStateView(with message: String, in view: UIView) {
         let emptyStateView = GFEmptyView(message: message)
         emptyStateView.frame = view.bounds
         view.addSubview(emptyStateView)
