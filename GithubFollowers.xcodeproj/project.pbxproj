@@ -43,6 +43,7 @@
 		0F9BF8602B84E25700BD6F07 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF85F2B84E25700BD6F07 /* FavoriteCell.swift */; };
 		0F9BF8632B8575C200BD6F07 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8622B8575C200BD6F07 /* GFTabBarController.swift */; };
 		0F9BF8652B857E1F00BD6F07 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8642B857E1F00BD6F07 /* GFAlertContainerView.swift */; };
+		0F9BF8672B85928000BD6F07 /* GFDataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8662B85928000BD6F07 /* GFDataLoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		0F9BF85F2B84E25700BD6F07 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		0F9BF8622B8575C200BD6F07 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		0F9BF8642B857E1F00BD6F07 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		0F9BF8662B85928000BD6F07 /* GFDataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 				0F9BF8562B844CC100BD6F07 /* ItemInfoViewControllers */,
 				0F9BF8232B7FA07900BD6F07 /* GFAlertViewController.swift */,
 				0F9BF8482B8421E800BD6F07 /* GFUserInfoHeaderViewController.swift */,
+				0F9BF8662B85928000BD6F07 /* GFDataLoadingViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				0F9BF8552B844C5700BD6F07 /* GFFollowerItemViewController.swift in Sources */,
 				0F9BF81C2B7E14F800BD6F07 /* GFTextField.swift in Sources */,
 				0F9BF8002B7DF1BC00BD6F07 /* AppDelegate.swift in Sources */,
+				0F9BF8672B85928000BD6F07 /* GFDataLoadingViewController.swift in Sources */,
 				0F9BF8272B7FA69400BD6F07 /* UIViewController+Ext.swift in Sources */,
 				0F9BF81A2B7E11FC00BD6F07 /* GFButton.swift in Sources */,
 				0F9BF81E2B7E4B4D00BD6F07 /* FollowerListViewController.swift in Sources */,
