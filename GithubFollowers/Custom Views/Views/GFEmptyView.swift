@@ -17,10 +17,9 @@ class GFEmptyView: UIView {
         configure()
     }
     
-    init(message: String){
-        super.init(frame: .zero)
-        messageLabel.text = message
-        configure()
+    convenience init(message: String){
+        self.init(frame: .zero)
+        messageLabel.text = message 
     }
     
     required init?(coder: NSCoder) {

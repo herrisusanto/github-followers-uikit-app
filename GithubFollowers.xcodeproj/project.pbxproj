@@ -42,6 +42,7 @@
 		0F9BF85C2B84CCCB00BD6F07 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF85B2B84CCCB00BD6F07 /* PersistenceManager.swift */; };
 		0F9BF8602B84E25700BD6F07 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF85F2B84E25700BD6F07 /* FavoriteCell.swift */; };
 		0F9BF8632B8575C200BD6F07 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8622B8575C200BD6F07 /* GFTabBarController.swift */; };
+		0F9BF8652B857E1F00BD6F07 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9BF8642B857E1F00BD6F07 /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		0F9BF85B2B84CCCB00BD6F07 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		0F9BF85F2B84E25700BD6F07 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		0F9BF8622B8575C200BD6F07 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		0F9BF8642B857E1F00BD6F07 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				0F9BF8442B83539800BD6F07 /* GFEmptyView.swift */,
 				0F9BF84E2B843EEF00BD6F07 /* GFItemInfoView.swift */,
+				0F9BF8642B857E1F00BD6F07 /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				0F9BF8602B84E25700BD6F07 /* FavoriteCell.swift in Sources */,
 				0F9BF8222B7F9F3D00BD6F07 /* GFBodyLabel.swift in Sources */,
 				0F9BF82E2B81C45400BD6F07 /* Follower.swift in Sources */,
+				0F9BF8652B857E1F00BD6F07 /* GFAlertContainerView.swift in Sources */,
 				0F9BF8202B7F9DA500BD6F07 /* GFTitleLabel.swift in Sources */,
 				0F9BF8292B80F8F300BD6F07 /* UIView+Ext.swift in Sources */,
 				0F9BF8142B7E066700BD6F07 /* SearchViewController.swift in Sources */,
