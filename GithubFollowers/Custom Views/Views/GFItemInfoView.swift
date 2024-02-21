@@ -27,7 +27,7 @@ enum ItemInfoType {
         }
     }
     
-    var systemImage: String {
+    var image: UIImage {
         switch self {
         case .repos:
             return SFSymbols.repos
@@ -87,7 +87,7 @@ class GFItemInfoView: UIView {
     }
     
     func set(itemInfoType: ItemInfoType, withCount count: Int ) {
-        symbolImageView.image = UIImage(systemName: itemInfoType.systemImage)
+        symbolImageView.image = itemInfoType.image
         titleLabel.text = itemInfoType.title
         countLabel.text = String(count)
     }
